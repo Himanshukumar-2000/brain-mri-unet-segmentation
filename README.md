@@ -2,8 +2,6 @@
 
 An end-to-end Deep Learning project for automated segmentation of Lower-Grade Glioma (LGG) abnormalities and brain tumors from FLAIR MRI scans using a modernized Convolutional **U-Net** architecture.
 
-Developed by **Himanshu**.
-
 ---
 
 ## 📌 Project Overview
@@ -99,12 +97,9 @@ Evaluated on held-out test patient slices from the **TCGA Lower-Grade Glioma** d
 ## ⚡ Quick Start
 
 ### 1. Installation
-
-Clone this repository and install the dependencies:
+install the dependencies:
 
 ```bash
-git clone https://github.com/himanshu/brain-mri-unet-segmentation.git
-cd brain-mri-unet-segmentation
 
 pip install -r requirements.txt
 ```
@@ -170,7 +165,3 @@ $$\mathcal{L}_{\text{Dice}} = 1 - \frac{2 \sum_{i} y_i \hat{y}_i + \epsilon}{\su
 This guides the gradient updates to focus on spatial mask overlap while preserving sharp boundary edges.
 
 ---
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
